@@ -420,9 +420,12 @@
 
 .mail{
   display: inline-block;
-  text-align: center;
   width: 100%;
   font-size: 20px;
+}
+
+.section_questions .mail{
+  text-align: center;
 }
 
 .social_media img{
@@ -436,3 +439,138 @@
 .sec_a{
   margin-left: 1.2%; /*было 20px*/
 } 
+
+/*это надписать "Отзывы"*/
+.many_reviews .reviews_header{
+  /* margin: 50px; */
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.many_reviews .block{
+  text-align:left;
+  width: 100%;
+  margin-top: 3%;
+  
+  margin: 0 auto;
+  /* background-color: rgba(139, 236, 13, 0.3); */
+}
+
+.many_reviews .block_row{
+ 
+}
+
+.many_reviews .block_column{
+  border:0px solid #5e5373; /*было 4px*/
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+  background-color: white;
+  border-radius: 0px;
+  flex-basis: 24%;
+  margin-bottom: 0%;
+  margin-top: 2%;
+}
+
+.many_reviews .block_item{
+  /* background-color: #18b5a4; */
+
+  padding: 5px;
+  margin: 0px 5px 0px 5px;
+  font-size: 16px;
+  color: 0;
+}
+
+.many_reviews .block_item img{
+  width: 100px;
+  height: 100px;
+  /* border:1px solid #5e5373; */
+  border-radius: 50%;
+  
+}
+
+.many_reviews .block_item .person_name{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.many_reviews .block_item .reviews_program{
+  font-weight: 600;
+  font-style:oblique;
+}
+
+.many_reviews .block_item .reviews_text{
+  margin-top: 5px;
+  font-style: oblique;
+}
+
+
+.section_questions .section_subtitle{
+  margin-bottom: 2%;
+}
+
+.section_questions .block{
+  text-align:left;
+  width: 100%;
+  margin-top: 3%;
+  
+  margin: 0 auto;
+  /* background-color: rgba(139, 236, 13, 0.3); */
+}
+
+.many_reviews .block_row{
+ 
+}
+
+.section_questions .block_column{
+  border:0px solid #5e5373; /*было 4px*/
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+  background-color: white;
+  border-radius: 0px;
+  flex-basis: 24%;
+  margin-bottom: 0%;
+  margin-top: 2%;
+}
+
+.section_questions .block_item{
+  /* background-color: #18b5a4; */
+
+  padding: 5px;
+  margin: 0px 5px 0px 5px;
+  font-size: 16px;
+  color: 0;
+}
+
+.section_questions .block_item img{
+  width: 100px;
+  height: 100px;
+  /* border:1px solid #5e5373; */
+  border-radius: 50%;
+  
+}
+
+.section_questions .block_item .person_name{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section_questions a{
+  text-decoration: none;
+}
+
+
+.section_questions .block_item .mail{
+  text-decoration: underline;
+  text-align: left;
+}
+
+.section_questions .phone{
+  text-decoration: underline;
+}
+
+.section_questions .block_item .reviews_text{
+  margin-top: 5px;
+  font-style: oblique;
+}
